@@ -1,0 +1,97 @@
+body{
+	background-image:url(purple_b.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	background-size:cover;
+}
+
+#banner{
+	height:500px;
+	width:1000px;
+	background-image:url(KJSBanner.jpg);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#nav{
+	font-size:30px;
+	padding-top:220px;
+	color: white;
+	padding-left:250px;
+	font-family:Sans-serif;
+}
+
+#nav a:link{
+	color:white;
+	text-decoration:none;
+}
+
+#nav a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+#nav a:hover{
+	color:#BF5FFF;
+	text-decoration:none;
+}
+
+#container{
+	background-color:white;
+	width:1250px;
+	margin-top:-70px;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:25px;
+	border-top-style:double;
+	border-right-style:double;
+	border-left-style:double;
+	border-width:24px;
+	padding:10px;
+	border-color:white;
+	background-clip:padding-box;
+	font-family:Sans-serif;
+}
+
+#container a:link{
+	color:black;
+	text-decoration:none;
+}
+
+#container a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+#container a:hover{
+	color:#B23AEE;
+	text-decoration:none;
+}
+
+#nav_head{
+	height:500px;
+	background-repeat:repeat-x;
+	background-image:url(Repeat.jpg);
+	border-bottom-style:solid;
+	border-width:8px;
+	border-bottom-color:white;
+}
+
+#backToTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+	width: 125px;
+	height: 125px;
+	cursor: pointer;
+	z-index: 10;
+	background: url(back_to_top.png) no-repeat;
+	border-radius: 5px;
+}
+
+@font-face{
+	font-family: Atelier du Machiniste;
+	src: url(Atelier du Machiniste.ttf);
+}
