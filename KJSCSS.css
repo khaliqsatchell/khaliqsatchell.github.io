@@ -16,7 +16,7 @@ body{
 
 #nav{
 	font-size:30px;
-	padding-top:220px;
+	padding-top:270px;
 	color: white;
 	padding-left:250px;
 	font-family:Sans-serif;
@@ -69,6 +69,11 @@ body{
 	text-decoration:none;
 }
 
+#container h1{
+	font-family:Atelier du Machiniste;
+	font-size: 130px;
+	padding-left: 520px;
+}
 #nav_head{
 	height:500px;
 	background-repeat:repeat-x;
